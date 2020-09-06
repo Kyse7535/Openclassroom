@@ -1,0 +1,167 @@
+body {
+    background: url(../tp_image/images/fond_jaune.png) center no-repeat;
+    background-size: cover;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+header li {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+header ul {
+    text-align: right;
+}
+
+main {
+    border-bottom: 2px solid rgb(247, 130, 130);
+    border-top: 2px solid rgb(247, 130, 130);
+}
+
+header .main_header img {
+    width: 100%;
+    height: auto;
+}
+
+header li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header li {
+    padding: 0 10px;
+}
+
+header a:hover {
+    text-decoration: underline;
+    color: rgb(247, 130, 130);
+}
+
+header h6 {
+    font-size: 15px;
+}
+
+.img-bridge {
+    background: url(../tp_image/images/sanfrancisco.jpg) center no-repeat;
+    background-size: cover;
+    font-size: 12px;
+    height: 200px;
+}
+
+.main_header_text {
+    background-color: black;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.img-bridge a {
+    padding: 2px 5px;
+    color: #fff;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 2px;
+    transition: background-color 0.4s;
+    display: flex;
+    width: 80px;
+    justify-content: space-around;
+}
+
+.img-bridge a:hover {
+    background-color: rgb(142, 193, 252);
+}
+
+.main_text .titre {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main_text .titre h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.main_text .contenu {
+    font-size: 15px;
+}
+
+.main_text .navigation {
+    background-color: grey;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.main_header_text img {
+    height: 12px;
+    width: auto;
+    padding-top: 5px;
+}
+
+.main_text .navigation h5 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main_text .navigation p {
+    text-align: left;
+}
+
+.main_text .navigation .lien {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+footer .icon {
+    text-align: center;
+    margin: -1% auto;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+footer .list {
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}
+
+footer .list li {
+    list-style: disc inside;
+}
+
+footer .photo {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+footer .photo img {
+    width: 24%;
+    height: auto;
+}
+
+main {
+    background-color: rgb(241, 237, 199);
+}
+
+@media (max-width: 575px) {
+    .logo,
+    header ul {
+        text-align: center;
+    }
+    body {
+        min-width: 318px;
+    }
+}
